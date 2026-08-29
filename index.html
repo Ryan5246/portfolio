@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Ryan Priyank Sunjai Dhas, a Computer Engineering undergraduate at the National University of Singapore."
+    />
+    <meta name="theme-color" content="#07111f" />
+    <title>Ryan Priyank Sunjai Dhas | Computer Engineering Portfolio</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Ryan Priyank Sunjai Dhas, home">
+        <span class="brand-mark">RP</span>
+        <span class="brand-copy">
+          <strong>Ryan Priyank Sunjai Dhas</strong>
+          <small>Computer Engineer</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch colour theme">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="top">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span>NUS Computer Engineering</p>
+          <h1>I build systems that <em>see</em>, <em>sense</em> and <em>move</em>.</h1>
+          <p class="hero-summary">
+            I am Ryan Priyank Sunjai Dhas, a Computer Engineering undergraduate combining computer vision,
+            embedded systems, robotics and full stack development to turn ideas into
+            reliable, useful products.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="mailto:e1591098@u.nus.edu">Get in touch</a>
+          </div>
+          <ul class="quick-facts" aria-label="Quick facts">
+            <li><strong>4.59/5</strong><span>NUS GPA</span></li>
+            <li><strong>5</strong><span>Built projects</span></li>
+            <li><strong>3</strong><span>Technical roles</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Engineering profile overview">
+          <div class="signal-orbit signal-orbit-one"></div>
+          <div class="signal-orbit signal-orbit-two"></div>
+          <div class="profile-console">
+            <div class="console-topbar">
+              <span></span><span></span><span></span>
+              <small>profile.system</small>
+            </div>
+            <div class="console-body">
+              <p><span class="code-muted">01</span><span class="code-key">focus</span>: <span class="code-value">intelligent systems</span></p>
+              <p><span class="code-muted">02</span><span class="code-key">building</span>: <span class="code-value">robotics + AI</span></p>
+              <p><span class="code-muted">03</span><span class="code-key">approach</span>: <span class="code-value">prototype → test → refine</span></p>
+              <p><span class="code-muted">04</span><span class="code-key">status</span>: <span class="code-live">open to opportunities</span></p>
+            </div>
+            <div class="console-footer">
+              <span class="pulse-dot"></span>
+              <span>Singapore</span>
+              <span>Available for internships</span>
+            </div>
+          </div>
+          <div class="floating-chip chip-one">ROS 2</div>
+          <div class="floating-chip chip-two">OpenCV</div>
+          <div class="floating-chip chip-three">ESP32</div>
+        </div>
+      </section>
+
+      <section class="stack-strip" aria-label="Technology highlights">
+        <div class="stack-track">
+          <span>Computer Vision</span><i></i><span>Embedded Systems</span><i></i><span>Robotics</span><i></i>
+          <span>Mobile Development</span><i></i><span>Edge AI</span><i></i><span>Computer Vision</span><i></i>
+          <span>Embedded Systems</span><i></i><span>Robotics</span><i></i><span>Mobile Development</span><i></i>
+        </div>
+      </section>
+
+      <section class="section intro-grid" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span>About me</p>
+          <h2>Engineering across the full system.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="large-copy">
+            My best work happens where software meets the physical world.
+          </p>
+          <p>
+            I enjoy moving between low level programming, sensors, intelligent perception
+            and user facing applications. That range lets me understand how individual
+            components affect the complete system, from the first signal to the final user experience.
+          </p>
+          <p>
+            At NUS, I am pursuing Computer Engineering with a minor in Artificial Intelligence
+            and Data Science. Outside class, I build practical projects and help other students
+            debug circuits, C programs and autonomous robots.
+          </p>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="work">
+        <div class="section-heading projects-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span>Selected work</p>
+            <h2>Projects built to solve real problems.</h2>
+          </div>
+          <div class="project-filters" role="group" aria-label="Filter projects">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="ai">AI</button>
+            <button class="filter-button" type="button" data-filter="robotics">Robotics</button>
+            <button class="filter-button" type="button" data-filter="software">Software</button>
+          </div>
+        </div>
+
+        <div class="project-grid" data-project-grid>
+          <article class="project-card project-featured reveal" data-category="software">
+            <div class="project-index">01</div>
+            <div class="project-art lendit-art" aria-hidden="true">
+              <div class="phone-shell">
+                <div class="phone-speaker"></div>
+                <div class="phone-screen">
+                  <div class="mini-brand">LendIT</div>
+                  <div class="mini-search"></div>
+                  <div class="mini-card"><span></span><div></div></div>
+                  <div class="mini-card"><span></span><div></div></div>
+                  <div class="mini-nav"><i></i><i></i><i></i></div>
+                </div>
+              </div>
+              <div class="art-label">Peer to peer sharing for NUS</div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Mobile product · NUS Orbital 2026</p>
+              <h3>NUS LendIT</h3>
+              <p>
+                A campus equipment sharing application with discovery, real time chat,
+                maps and secure OTP based transactions for NUS students.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>React Native</li><li>Expo</li><li>Firebase</li><li>Git</li>
+              </ul>
+              <a class="text-link" href="https://github.com/Ryan5246/NUSLendIT" target="_blank" rel="noreferrer">
+                View repository <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="robotics">
+            <div class="project-index">02</div>
+            <div class="project-art robot-art" aria-hidden="true">
+              <div class="scan-map">
+                <span class="wall wall-one"></span><span class="wall wall-two"></span>
+                <span class="wall wall-three"></span><span class="wall wall-four"></span>
+                <span class="robot-point"></span><span class="scan-line"></span>
+              </div>
+              <div class="art-label">Live 2D SLAM map</div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Robotics · CG2111A</p>
+              <h3>ALEX Rescue Robot</h3>
+              <p>
+                A teleoperated robot that mapped unfamiliar environments, detected coloured
+                Medpak zones and retrieved objects using a four servo robotic arm.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>ROS 2</li><li>RPLIDAR</li><li>Arduino</li><li>Raspberry Pi</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="ai">
+            <div class="project-index">03</div>
+            <div class="project-art vision-art" aria-hidden="true">
+              <div class="plate">SGX 5246</div>
+              <div class="focus-corner corner-one"></div><div class="focus-corner corner-two"></div>
+              <div class="focus-corner corner-three"></div><div class="focus-corner corner-four"></div>
+              <div class="confidence">98.4% detected</div>
+              <div class="art-label">Detection and OCR pipeline</div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Computer vision · Industrial internship</p>
+              <h3>Number Plate Recognition</h3>
+              <p>
+                An automated vision pipeline for detecting vehicle number plates and extracting
+                their text, built through dataset creation, annotation, training and inference.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>YOLO</li><li>PaddleOCR</li><li>OpenCV</li><li>Roboflow</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="robotics software">
+            <div class="project-index">04</div>
+            <div class="project-art rfid-art" aria-hidden="true">
+              <div class="rfid-card"><span>R</span><small>AUTHORIZED</small></div>
+              <div class="rfid-waves"><i></i><i></i><i></i></div>
+              <div class="art-label">Local attendance logging</div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Embedded systems · Personal project</p>
+              <h3>RFID Attendance System</h3>
+              <p>
+                An ESP32 system that identifies registered RFID cards, displays attendance
+                status and records timestamped entries in a local Excel workbook.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>ESP32</li><li>RC522</li><li>Python</li><li>OpenPyXL</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="robotics software">
+            <div class="project-index">05</div>
+            <div class="project-art climate-art" aria-hidden="true">
+              <div class="temperature">27.4<span>°C</span></div>
+              <div class="humidity"><span></span>68%</div>
+              <svg viewBox="0 0 240 60" role="img" aria-label="Temperature graph">
+                <path d="M0 46 C28 42, 32 17, 62 24 S104 52, 132 32 S176 8, 240 19" />
+              </svg>
+              <div class="art-label">WiFi environmental logger</div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">IoT · Personal project</p>
+              <h3>Environmental Logger</h3>
+              <p>
+                An ESP32 monitor that reads temperature and humidity, transmits the data over
+                local WiFi and stores readings in an Excel workbook without cloud services.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>ESP32</li><li>DHT11</li><li>WiFi</li><li>OpenPyXL</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span>Experience</p>
+          <h2>Learning by building and teaching.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Aug 2026<br />to present</div>
+            <div class="timeline-marker"><span></span></div>
+            <div class="timeline-content">
+              <p>NUS · CG1111A</p>
+              <h3>Teaching Assistant</h3>
+              <p>Mentor 20 engineering students in C programming, circuit design, sensor calibration and robotics while supporting code reviews and hardware troubleshooting.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Jun to Jul<br />2026</div>
+            <div class="timeline-marker"><span></span></div>
+            <div class="timeline-content">
+              <p>VISICS ATG India</p>
+              <h3>Computer Vision Intern</h3>
+              <p>Developed an automated number plate recognition system and contributed to a computer vision solution for tank filling detection.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Apr to May<br />2024</div>
+            <div class="timeline-marker"><span></span></div>
+            <div class="timeline-content">
+              <p>Tawny Technology Solutions</p>
+              <h3>Frontend Development Intern</h3>
+              <p>Contributed to the frontend of a Privileged Access Management solution, developing secure login and credential management workflows using React, Node.js and MongoDB.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span>Technical toolkit</p>
+          <h2>Tools I use to move from signal to system.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-panel reveal">
+            <span class="skill-number">01</span>
+            <h3>Programming</h3>
+            <p>C, C++, Python, JavaScript, HTML and CSS</p>
+          </article>
+          <article class="skill-panel reveal">
+            <span class="skill-number">02</span>
+            <h3>AI and Vision</h3>
+            <p>OpenCV, YOLO, PaddleOCR, NumPy, Roboflow and CVAT</p>
+          </article>
+          <article class="skill-panel reveal">
+            <span class="skill-number">03</span>
+            <h3>Robotics</h3>
+            <p>ROS 2, Arduino, Raspberry Pi, ESP32 and RPLIDAR</p>
+          </article>
+          <article class="skill-panel reveal">
+            <span class="skill-number">04</span>
+            <h3>Product Development</h3>
+            <p>React, React Native, Expo, Node.js, Firebase and MongoDB</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section credentials-section">
+        <article class="education-card reveal">
+          <p class="eyebrow"><span></span>Education</p>
+          <h2>National University of Singapore</h2>
+          <p>Bachelor of Engineering in Computer Engineering</p>
+          <p>Minor in Artificial Intelligence and Data Science</p>
+          <div class="education-meta">
+            <span>2025 to 2029</span>
+            <span>GPA 4.59/5</span>
+          </div>
+        </article>
+
+        <article class="recognition-card reveal">
+          <p class="eyebrow"><span></span>Recognition</p>
+          <ul>
+            <li>
+              <span>01</span>
+              <div><strong>School Topper Award</strong><small>Grade 12 CBSE examinations</small></div>
+            </li>
+            <li>
+              <span>02</span>
+              <div><strong>Top in Country Award</strong><small>IGCSE Biology, India</small></div>
+            </li>
+            <li>
+              <span>03</span>
+              <div><strong>IBM Certification</strong><small>Python for Data Science, AI and Development</small></div>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-copy reveal">
+          <p class="eyebrow"><span></span>Let us build something useful</p>
+          <h2>Have an engineering problem worth solving?</h2>
+          <p>I am open to internships, collaborative projects and conversations about robotics, AI and product engineering.</p>
+        </div>
+        <div class="contact-actions reveal">
+          <a class="button button-primary" href="mailto:e1591098@u.nus.edu">Email me <span aria-hidden="true">↗</span></a>
+          <button class="button button-secondary" type="button" data-copy-email>Copy email</button>
+          <span class="copy-status" data-copy-status role="status" aria-live="polite"></span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Designed and built by Ryan Priyank Sunjai Dhas.</p>
+      <div>
+        <a href="https://github.com/Ryan5246" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/ryan-priyank-sunjai-dhas" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
+
